@@ -1,0 +1,191 @@
+.header {
+    display: flex;
+    justify-content: space-around;
+}
+.part1 {
+    border: 1px solid black;
+    display: flexbox;
+}
+
+.part2 {
+    border: 1px solid black;
+    display: flexbox;
+}
+
+.buttons-box{
+    display: flex;
+    border: 1px solid black;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.buttons-ind {
+    padding: 10px;
+    align-items: center;
+}
+
+.flex-box-container-1 {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+#flex-box-result {
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    font-size: 4em;
+    padding: 10px;
+}
+
+body {
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 50px;
+    margin-top: 20px;
+}
+
+#cat-box {
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid black;
+    flex-wrap: wrap;
+}
+
+#cat-box img {
+    width: 200px;
+    height: 200px;
+    box-shadow: 2px 5px 10px black;
+    margin: 20px;
+}
+
+.part3, .part4, .part5 {
+    border: 1px solid black;
+    display: flexbox;
+    justify-content: center;
+}
+
+.rock-paper-scissors {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border: 1px solid black;
+    flex-wrap: wrap;
+}
+
+.rock-paper-scissor-item, .rock-paper-scissor-item-human, .rock-paper-scissor-item-robot {
+    display: flex;
+    margin: 20px;
+}
+
+#rock, #scissors, #paper {
+    align-items: center;
+}
+
+.rock-paper-scissor-item:hover {
+    box-shadow: 2px 5px 10px blue;
+}
+
+.rock-paper-scissor-item h2 {
+    padding-top: 100px;
+    margin-top: 100px;
+}
+
+#winner {
+    color: green;
+}
+
+#loser {
+    color: red;
+}
+
+#tie {
+    color: #fcba03;
+}
+
+.rock-paper-scissor-item-human {
+    box-shadow: 2px 5px 10px blue;
+}
+
+.rock-paper-scissor-item-robot {
+    box-shadow: 2px 5px 10px red;
+}
+
+.rand-button {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.part5 .header {
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.part5 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.blackjack-actions {
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin: 10px;
+    justify-content: center;
+}
+
+.scorecard{
+    padding: 20px;
+}
+.scorecard table tr th,td{
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5px;
+}
+
+.scorecard {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.blackjack-game {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    width: 100%;
+    background: url(https://mk0gamesnetentcxytko.kinstacdn.com/wp-content/uploads/2018/09/blackjack_background.jpg) center;
+    color: white;
+}
+
+.blackjack-table-row-1 {
+    height: 350px;
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 10px;
+    flex-wrap: wrap;
+}
+
+.blackjack-player, .blackjack-dealer {
+    border: 1px solid black;
+    text-align: center;
+    flex: 1;
+    flex-wrap: wrap;
+}
+
+.blackjack-player img, .blackjack-dealer img {
+    height: 125px;
+    width: auto;
+    margin: 15px;
+}
